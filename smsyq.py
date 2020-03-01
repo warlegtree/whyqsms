@@ -5,7 +5,7 @@ import requests
 import json
 from aliyunsdkcore.client import AcsClient
 from aliyunsdkcore.request import CommonRequest
-client = AcsClient('6FVCnx8cjlTnzF6D', 'M6rolHaoIg0mJShV3ILm6YGEE1nEJ8', 'cn-hangzhou')
+client = AcsClient('xxxxxx', 'xxxxxx', 'cn-hangzhou')
 
 def get_ncp_raw_data():
     qq_url = "https://view.inews.qq.com/g2/getOnsInfo?name=disease_h5"
